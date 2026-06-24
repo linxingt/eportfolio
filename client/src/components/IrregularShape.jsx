@@ -9,9 +9,10 @@ export const IrregularShape = ({ index, category, onMouseEnter, isActive }) => {
   const getIrregularShape = (index) => {
     const shapes = [
       '41% 39% 47% 43% / 48% 32% 68% 32%',
-      '57% 13% 36% 14% / 59% 64% 60% 52% ',
+      '57% 13% 36% 14% / 59% 64% 60% 52%',
       '64% 36% 29% 31% / 59% 71% 63% 57%',
-      '50% 50% 33% 67% / 62% 36% 64% 38%'
+      '50% 50% 33% 67% / 62% 36% 64% 38%',
+      '30% 70% 21% 79% / 54% 39% 61% 46%',
     ];
     return shapes[index % shapes.length];
   };
@@ -21,7 +22,8 @@ export const IrregularShape = ({ index, category, onMouseEnter, isActive }) => {
       '1 / 1 / 2 / 2',
       '2 / 2 / 3 / 3',
       '3 / 1 / 4 / 2',
-      '4 / 2 / 5 / 3'
+      '4 / 2 / 5 / 3',
+      '5 / 1 / 6 / 2',
     ];
     return positions[index % positions.length];
   };

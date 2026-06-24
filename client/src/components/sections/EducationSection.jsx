@@ -12,7 +12,7 @@ const educationData = [
     title: "ESIEE Paris",
     period: "2024 - 2027",
     major: "Filière «Informatique, algorithmes et développement»",
-    details: [`Certificat Voltaire : 845/1000 <br>(code de vérification : <a href="https://mon.certificat-voltaire.fr/verification-certificat?code=DNKMTPT" target="_blank" rel="noreferrer">DNKMTPT</a>)`,"Score TOEIC : 700/990"]
+    details: [`Certificat Voltaire : 845/1000 <br>(code de vérification : <a href="https://mon.certificat-voltaire.fr/verification-certificat?code=DNKMTPT" target="_blank" rel="noreferrer">DNKMTPT</a>)`,"Score TOEIC : 720/990"]
   },
   {
     img: iutImage,
